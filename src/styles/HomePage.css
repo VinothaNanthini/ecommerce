@@ -1,0 +1,157 @@
+.homepage {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Header styling */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #ddd;
+}
+
+.header-logo img {
+    width: 50px;
+}
+
+.header-icons i {
+    margin-left: 15px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Carousel placeholder styling */
+.carousel {
+    height: 300px;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Offers section styling */
+.offers-section {
+    text-align: center;
+    padding: 5px 20px;
+    background-color: #f1f1f1;
+}
+
+.offers-section h2 {
+    font-size: 32px;
+    color: #6a2a82;
+    margin-bottom: 10px;
+}
+
+.offers-section p {
+    font-size: 18px;
+    color: #6a2a82;
+    margin-bottom: 30px;
+}
+
+.brands {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.brands img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+}
+
+/* Categories section styling */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #fff;
+}
+
+.category-item {
+    text-align: center;
+    width: 22%;
+    cursor: pointer;
+}
+
+.category-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.category-item p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 10px;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+    .categories {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category-item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+
+.app-bar {
+    background-color: #f8f8f8;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .app-bar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+  }
+
+
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  .carousel img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    scroll-snap-align: start;
+  }
+
+  .homepage {
+    text-align: center;
+  }
+  
+  .categories {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .categories a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .categories img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,19 @@
+.buy-page {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .success-message {
+    padding: 20px;
+    background-color: #e9f7e9;
+    border: 1px solid #4caf50;
+    border-radius: 8px;
+    margin: 20px 0;
+  }
+  
+  .success-message .checkmark {
+    font-size: 2rem;
+    color: #4caf50;
+    margin-right: 10px;
+  }

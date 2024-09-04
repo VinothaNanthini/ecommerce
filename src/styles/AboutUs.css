@@ -1,0 +1,44 @@
+.cta-section {
+    text-align: center;
+    margin-top: 30px;
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+    perspective-origin: 1000px;
+}
+.cta-container {
+transform-style: flat;
+}
+.cta-container:hover {
+    transform: rotateY(180deg);
+}
+.cta-section a {
+    text-decoration: none;
+    color: #333;
+}
+.about-container{
+    background-color:rgb(211, 194, 211);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.cta-image {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.cta-image:hover {
+    transform: scale(1.05);
+}
+
+.cta-section h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    color: #d23f57;
+}
+.cta-details {
+    transform: matrix3d();
+    display: flexbox;
+    align-items: center;
+}
