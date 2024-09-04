@@ -34,8 +34,8 @@ const ContactPage = () => {
   return (
     <div className="contact-container">
       <div className="hero">
-        <h1 className="form-title"></h1>
-        <p className="form-subtitle"></p>
+        <h1 className="form-title">contact form</h1>
+        
       </div>
       <form className="contact-form" onSubmit={handleSubmit}>
         <div className="form-group">
